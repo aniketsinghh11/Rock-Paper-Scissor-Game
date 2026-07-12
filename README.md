@@ -1,179 +1,135 @@
-# ✊✋✌️ Rock Paper Scissors Game
+# ✊✋✌️ Rock Paper Scissor Game
 
-A modern and interactive **Rock Paper Scissors** game built using **HTML, CSS, and JavaScript**. The game offers a responsive interface, real-time score tracking, and a smooth gameplay experience where players compete against the computer.
-
-## 📖 Overview
-
-Rock Paper Scissors is a classic hand game where the player selects either **Rock**, **Paper**, or **Scissors**, and the computer randomly chooses its move. The game instantly determines the winner, updates the score, and displays the result.
-
-This project was created to strengthen my understanding of JavaScript fundamentals, including DOM manipulation, event handling, conditional logic, random number generation, and responsive web design.
-
----
-
-## 🚀 Features
-
-- 🎮 Play against the computer
-- 🤖 Random computer move generation
-- 📊 Real-time score updates
-- 🏆 Win, Lose, and Draw detection
-- 🎨 Clean and modern user interface
-- 📱 Fully responsive design
-- ⚡ Fast and lightweight application
-
----
-
-## 🛠️ Technologies Used
-
-- **HTML5** – Structure
-- **CSS3** – Styling & Responsive Design
-- **JavaScript (ES6)** – Game Logic & Interactivity
-
----
-
-## 📂 Project Structure
-
-```
-Rock-Paper-Scissors-Game/
-│
-├── images/
-│   ├── rock.png
-│   ├── paper.png
-│   ├── scissors.png
-│   └── ...
-│
-├── index.html
-├── style.css
-├── main.js
-└── README.md
-```
-
----
-
-## 🎯 Game Rules
-
-- 🪨 Rock beats Scissors
-- ✂️ Scissors beats Paper
-- 📄 Paper beats Rock
-- Same choices result in a Draw
-
----
-
-## 💻 Getting Started
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/aniketsinghh11/Rock-Paper-Scissors-Game.git
-```
-
-### Navigate to the Project
-
-```bash
-cd Rock-Paper-Scissors-Game
-```
-
-### Run the Project
-
-Simply open **index.html** in your browser.
-
-Or use **Live Server** in Visual Studio Code for a better development experience.
-
----
-
-## 📸 Screenshot
-
-> Add a screenshot of your game here.
-
-Example:
-
-```
-images/screenshot.png
-```
-
----
+A modern, responsive, and interactive **Rock Paper Scissor** game built using **HTML, CSS, and JavaScript**. Challenge the computer, test your luck, and enjoy a clean user interface with real-time score tracking and smooth gameplay.
 
 ## 🌐 Live Demo
 
-After enabling GitHub Pages, add your live website here.
+🔗 **Live Website:**  
+https://aniketsinghh11.github.io/Rock-Paper-Scissor-Game/
 
-```
-https://aniketsinghh11.github.io/Rock-Paper-Scissors-Game/
+🔗 **GitHub Repository:**  
+https://github.com/aniketsinghh11/Rock-Paper-Scissor-Game
+
+---
+
+# 📸 Screenshots
+
+### 🏠 Home Screen
+
+<p align="center">
+  <img src="images/home-screen.png" width="850">
+</p>
+
+### 🎮 User Win
+
+<p align="center">
+  <img src="images/user.png" width="850">
+</p>
+
+### 🎮 Computer Win
+
+<p align="center">
+  <img src="images/comp.png" width="850">
+</p>
+
+### 🏆 Draw Result
+
+<p align="center">
+  <img src="images/draw.png" width="850">
+</p>
+
+---
+
+
+
+# ✨ Features
+
+- ✊ Choose Rock, Paper, or Scissor
+- 🤖 Play against the Computer
+- 🎲 Random Computer Move Generation
+- 🏆 Instant Win, Lose & Draw Detection
+- 📊 Live Score Tracking
+- 🎯 Displays Both Player & Computer Choices
+- ⚡ Dynamic Result Messages
+- 🔄 Unlimited Gameplay
+- 🎨 Modern & Minimal User Interface
+- ✨ Smooth Hover Animations
+- 🌐 Hosted on GitHub Pages
+
+---
+
+# 🛠️ Built With
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+---
+
+# 📂 Project Structure
+
+```text
+Rock-Paper-Scissor-Game/
+│── images/
+│── index.html
+│── style.css
+│── script.js
+│── README.md
 ```
 
 ---
 
-## 📚 Concepts Practiced
+# 🚀 Getting Started
 
-- HTML Structure
-- CSS Flexbox
-- Responsive Design
-- DOM Manipulation
-- Event Listeners
-- Conditional Statements
-- Random Number Generation
-- Functions
-- JavaScript Variables
+### Clone the repository
+
+```bash
+git clone https://github.com/aniketsinghh11/Rock-Paper-Scissor-Game.git
+```
+
+### Run the project
+
+Simply open the **index.html** file in your browser.
 
 ---
 
-## 🔮 Future Improvements
+# 🎮 Game Rules
+
+- 🪨 Rock beats Scissor
+- 📄 Paper beats Rock
+- ✂️ Scissor beats Paper
+- 🤝 Same choices result in a Draw
+
+---
+
+# 🎯 Future Improvements
 
 - 🔊 Sound Effects
-- 🌙 Dark Mode
-- 💾 Save Score using Local Storage
-- 🎭 Better Animations
-- 👥 Multiplayer Mode
-- 📈 Game Statistics
-- 🎯 Difficulty Levels
+- 🎵 Background Music
+- 🌙 Dark / Light Theme
+- 📈 Match History
+- 🏅 Best Score Tracker
+- 🧠 Multiple Difficulty Levels
+- 🌍 Online Multiplayer
 
 ---
 
-## 🤝 Contributing
+# 🙋‍♂️ Author
 
-Contributions, suggestions, and improvements are welcome.
+### **Aniket**
 
-1. Fork the repository
-2. Create a new branch
-
-```bash
-git checkout -b feature-name
-```
-
-3. Commit your changes
-
-```bash
-git commit -m "Add new feature"
-```
-
-4. Push the branch
-
-```bash
-git push origin feature-name
-```
-
-5. Open a Pull Request
+🐙 GitHub: https://github.com/aniketsinghh11
 
 ---
 
-## 👨‍💻 Author
+# ⭐ Support
 
-**Aniket**
+If you enjoyed this project, consider giving it a ⭐ on GitHub!
 
-- GitHub: https://github.com/aniketsinghh11
-- LinkedIn: *(Add your LinkedIn profile URL here)*
+Your support motivates me to build more exciting web development projects.
 
 ---
 
-## 📄 License
+# 📄 License
 
 This project is licensed under the **MIT License**.
-
----
-
-## ⭐ Support
-
-If you enjoyed this project or found it useful, consider giving it a **⭐ Star** on GitHub.
-
-It helps support my work and motivates me to build more open-source projects.
-
-Thank you for visiting! 🚀
