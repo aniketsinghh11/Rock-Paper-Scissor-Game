@@ -80,7 +80,6 @@ img {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh;
   }
   main {
     backdrop-filter: blur(5px);
@@ -107,7 +106,7 @@ img {
   .msg {
     background-color: #0c033d;
     color: #ffff;
-    font-size: 0.99rem;
+    font-size: 1.2rem;
     margin-top: 5rem;
     padding: 1rem;
     border-radius: 1rem;

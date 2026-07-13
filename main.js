@@ -25,7 +25,7 @@ const showWinner = (userWin, userChoice, compChoice) => {
     userpoint.innerHTML = userScore;
     console.log("userscore: ", userScore);
     console.log("User wins!");
-    msg.innerText = `You Win! Your ${userChoice} beats  Computer's ${compChoice}`;
+    msg.innerText = `Your ${userChoice} beats  Computer's ${compChoice}`;
     msg.style.backgroundColor = "#2aff0e";
     msg.style.color = "#000000";
   } else {
@@ -33,7 +33,7 @@ const showWinner = (userWin, userChoice, compChoice) => {
     console.log("comp score: ", compScore);
     comppoint.innerHTML = compScore;
     console.log("Computer wins!");
-    msg.innerText = `You Loose!  Computer ${compChoice} beats Your ${userChoice}`;
+    msg.innerText = `Computer ${compChoice} beats Your ${userChoice}`;
 
     msg.style.backgroundColor = "#ff0000";
   }
