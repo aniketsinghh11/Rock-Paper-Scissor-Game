@@ -3,13 +3,13 @@
   padding: 0;
   text-align: center;
 }
-body{
-background-image: url("images/back.png");
+body {
+  background-image: url("images/back.png");
   height: 100vh;
 }
 
 main {
-  height: 100vh;
+  height: calc(100vh - 60px);
   backdrop-filter: blur(2px);
 }
 h1 {
@@ -20,7 +20,6 @@ h1 {
   height: 5rem;
   line-height: 5rem;
   padding-top: 2rem;
-  
 }
 .choice {
   height: 170px;
@@ -73,4 +72,82 @@ img {
   display: inline;
   padding: 1rem;
   border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url("images/mobile.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  main {
+    backdrop-filter: blur(5px);
+  }
+  .choices {
+    gap: 0.4rem;
+    margin-top: 3rem;
+  }
+  .choice {
+    height: 120px;
+    width: 120px;
+  }
+  img {
+    height: 110px;
+    width: 110px;
+  }
+  .score-board {
+    font-size: 1.5rem;
+  }
+  #user-score,
+  #comp-score {
+    font-size: 3.5rem;
+  }
+  .msg {
+    background-color: #0c033d;
+    color: #ffff;
+    font-size: 1.1rem;
+    margin-top: 5rem;
+
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  footer i {
+    font-size: 5px;
+  }
+  span {
+    color: #b11313;
+    font-weight: 400;
+    font-size: 5px;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #777;
+}
+
+footer a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+footer a:hover {
+  color: #4f8cff;
+}
+
+footer i {
+  font-size: 1.4rem;
+}
+span {
+  color: #000000;
+  font-weight: 600;
+  font-size: 1.4rem;
 }

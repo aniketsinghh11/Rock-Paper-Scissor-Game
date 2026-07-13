@@ -15,7 +15,7 @@ const getCompChoice = () => {
 const drawScore = () => {
   console.log("It's a draw!");
   msg.innerText = `Game was Draw. Play again! `;
-
+  msg.style.color = "#ffffff";
   msg.style.backgroundColor = "#0c033d";
 };
 
@@ -23,13 +23,14 @@ const showWinner = (userWin, userChoice, compChoice) => {
   if (userWin) {
     userScore++;
     userpoint.innerHTML = userScore;
-    console.log("userscore: ",userScore);
+    console.log("userscore: ", userScore);
     console.log("User wins!");
     msg.innerText = `You Win! Your ${userChoice} beats  Computer's ${compChoice}`;
     msg.style.backgroundColor = "#2aff0e";
+    msg.style.color = "#000000";
   } else {
     compScore++;
-    console.log("comp score: ",compScore);
+    console.log("comp score: ", compScore);
     comppoint.innerHTML = compScore;
     console.log("Computer wins!");
     msg.innerText = `You Loose!  Computer ${compChoice} beats Your ${userChoice}`;
