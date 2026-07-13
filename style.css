@@ -107,9 +107,8 @@ img {
   .msg {
     background-color: #0c033d;
     color: #ffff;
-    font-size: 1.1rem;
+    font-size: 0.99rem;
     margin-top: 5rem;
-
     padding: 1rem;
     border-radius: 1rem;
   }
